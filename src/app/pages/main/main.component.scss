@@ -1,0 +1,24 @@
+.mat-card{
+    margin-bottom: 15px;
+}
+//   .respone-card{
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     align-items: flex-end;
+//     justify-content: space-evenly;
+//   }
+.wid-card{
+  width: 21vw;
+  height: 22vw;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 12px;
+}
