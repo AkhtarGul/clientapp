@@ -7,6 +7,7 @@ import { ApiserviceService } from './services/apiservice.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
+  
   constructor(private apiSrv:ApiserviceService){}
   // response:any[]=[];
   ngOnInit(): void {
@@ -20,4 +21,7 @@ export class AppComponent implements OnInit{
   // Test(event:any){
   //   console.log("click by user",event);
   // }
+
+
+  
 }
