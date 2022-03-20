@@ -10,6 +10,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { MainComponent } from './pages/main/main.component';
 import { ButtonComponent } from './pages/button/button.component';
+import { MatDrawerComponent } from './shared/mat-drawer/mat-drawer.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ButtonComponent } from './pages/button/button.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    ButtonComponent
+    ButtonComponent,
+    MatDrawerComponent
   ],
   imports: [
     BrowserModule,
