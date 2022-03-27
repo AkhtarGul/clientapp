@@ -14,6 +14,8 @@ export class MainComponent implements OnInit {
   constructor(private apiSrv:ApiserviceService){}
   response:any[]=[];
   ngOnInit(): void {
+    //mirag js 
+    // resMovies=this.get()
     // throw new Error('Method not implemented.');
     this.apiSrv.getAllTodo().subscribe(res=>{
       this.response=res;
